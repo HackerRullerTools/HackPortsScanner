@@ -3,8 +3,8 @@ pathFile="HackPortsScanner"
 pkg install python
 cd ~/../usr/bin 
 # команда
-touch attackbots
+touch HackPortsScanner
 echo "cd ~/$pathFile/ && python HackPortsScanner.py" >  HackPortsScanner
-chmod +x attackbots
+chmod +x HackPortsScanner
 cd ~/
 #конец
